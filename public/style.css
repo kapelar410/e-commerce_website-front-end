@@ -1,0 +1,278 @@
+.nav-link{
+    font-weight: lighter;
+}
+
+.navbar{
+    background-color: #FFD099;
+}
+
+.header{
+    background-color: #FFD099;
+} 
+
+/* ========== carousel ============*/
+.carousel-img{
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-text{
+    margin-top: 150px;
+}
+
+.subheading{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    width: 150px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.heading{
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.discover-btn{
+    background-color: #FFC436;
+    color: #fff;
+    width: 150px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.discover-btn:hover{
+    background-color: transparent;
+}
+
+.text{
+    color: #fff;
+}
+
+/* =================end of carousel ============*/
+
+/* ============== section2 ==============*/
+.section2{
+    text-align: center;
+}
+
+.flaticon{
+    width: 80px;
+}
+
+#section2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section2-subheading{
+    margin-top: 20px;
+    font: 800;
+    font-size: 1.2rem;
+}
+
+.section2-paragraph{
+    font-size: 15px;
+    color: #A9A9A9;
+}
+/* ============= end of section2 ===============*/
+
+/* =============== product categories ============*/
+.product-category-heading{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.product-category{
+    background-color: #F0F0F0;
+}
+
+.nav-underline{
+    text-align: center;
+}
+
+.product-category{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.card-img{
+    height: 300px;
+    background-color: #F7F7F7;
+}
+
+.cat-link{
+    color: black;
+}
+
+.add-to-cart{
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.add-to-cart-btn{
+    background-color: #FFC436;
+}
+
+
+/* Removing this will break the effects*/
+.hover-effect{
+    overflow: hidden; 
+    border: 0;
+}
+
+.hover-effect:hover .add-to-cart {
+    display: inline-block;
+    position: absolute;
+  }
+
+/* Point-zoom Container */
+.img-hover-effect--point-zoom img{
+    /* transform-origin: 65% 75%; */
+    transform-origin: center center;
+    transition: transform .5s, filter .5s ease-out;
+  }
+  
+  /* The Transformation */
+  .img-hover-effect--point-zoom:hover img{
+    transform: scale(1.2);
+  }
+
+  .buy-now{
+    background-color: #A9A9A9;
+  }
+
+  .product-details{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .product-name{
+    font-weight: bold;
+  }
+
+  .product-price{
+    color: #F3B664;
+    font-size: 20px;
+  }
+
+  .action-btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  /* ========end of category section ========= */
+
+  /* ==========Deal of the month ============*/
+  .deal{
+    background-color: #FFD099;
+  }
+  .deal-img{
+    width: 100%;
+  }
+
+  .deal-month{
+    padding-top: 80px;
+  }
+
+  .deal-text{
+    color: #fff;
+    padding-left: 50px;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+
+  .deal-h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .deal-h2, .timer{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .timer{
+    color: #FF8F8F;
+  }
+
+  .deal-shoe{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  .deal-price{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 20px;
+  }
+
+  .deal-price-p{
+    color: black;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+
+  .thumb-deal{
+    list-style-type:none;
+  }
+
+  .thumb-img{
+    width: 120px;
+  }
+/* ==========End of Deal of the month ============*/
+
+.social-media{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.social-para{
+    margin-top: 50px;
+    color: #A9A9A9;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.copyright{
+    text-align: center;
+    color: #A9A9A9;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fa-brands{
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+li{
+  list-style-type: none;
+}
+
+a, .footer-note{
+  text-decoration: none;
+  color: #A9A9A9;
+}
+
+.footer-head{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
